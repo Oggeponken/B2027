@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+.directions1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    
+}
+
+.directions1 img {
+    height: 400px;
+   
+
+}
+
+.directions1 .text {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    border-radius: 10px;
+
+}
+
+
