@@ -22,19 +22,28 @@ body {
 }
 
 
-.menu h1 {
+.menu .start {
     margin-right:50px;
+    font-size: 30;
+    color: black;
+    margin-right: 100px;
 }
 
 .menu a {
     margin: 0 15px;
-    color: rgb(55, 154, 201)
+    color: rgb(55, 154, 201);
+    text-decoration: none;
+    
+}
+
+.menu a:hover{
+    cursor:grab;
 }
 
 .menu a.active {
     font-weight: bold;
     font-size: 1.5em;
-    color: rgb(2, 86, 126)
+    color: rgb(2, 86, 126);
 }
 
 .menu h1 {
