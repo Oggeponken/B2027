@@ -1,3 +1,22 @@
+
+
+
+.checklist1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 1000px;
+    
+}
+
+.checklist1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18;
+}
+
+
 .checklist {
     width: 600px;
     margin: 30px auto;
