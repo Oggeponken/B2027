@@ -18,14 +18,19 @@
 
 
 .checklist {
+    
+    display: flex;
+    flex-direction: column;
+
     width: 600px;
-    margin: 30px auto;
+    margin-left: 20px;
+    margin-top: 25px;
     padding: 20px;
-    background-color: #f8f8f8;
+    gap: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+ 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-size: 24;
     
     
 }
