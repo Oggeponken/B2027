@@ -1,6 +1,6 @@
 .headerimage {
     width: 100%;
-    height: 600px;
+    height: 400px;
 
     background-image: url("../assets/pic4.jpg");
     background-size: cover;
@@ -11,50 +11,57 @@
 
 }
 @font-face {
-    font-family: "Jelytta";
-    src: url("../assets/fonts/Jelytta.ttf") format("truetype");
+    font-family: "Lora";
+    src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 .headerimage h1{
-    font-family: "Jelytta";
+    font-family: "Lora";
     font-size: 60;
     color:white
 
 }   
 
 .intro {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lora";
     font-weight: 400;
     font-size: 22;
     width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
 }
-.agenda{
-    margin-top:25px;
-}
 
-.agenda p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.agenda details {
+.agenda {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    column-gap: 50px;
     margin: 20px;
-    background: rgb(243, 247, 250);
+    
+ 
+}
+.agenda .day-container{
+    display: flex;
+    flex-direction: row;
+    background: rgb(253, 125, 114);
     border-radius: 15px;
     padding: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     width:500px
 }
+.agenda .day-container .day{
+   width:500px
+}
 
+
+.agenda p{
+    font-family: "Lora";
+}
 .agenda summary {
     font-size: 24px;
     font-weight:400;
     cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Lora";
 }
 
-.agenda-content {
-    margin-top: 15px;
-    padding-left: 20px;
-}

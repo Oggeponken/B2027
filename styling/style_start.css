@@ -12,16 +12,15 @@ img {
 
 
 @font-face {
-    font-family: "Jelytta";
-    src: url("../assets/fonts/Jelytta.ttf") format("truetype");
+    font-family: "Lora";
+    src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
-
 
 
 .menu {
     height: 50px;
     background-color: rgb(213, 236, 243);
-    font-family: "Jelytta";
+    font-family: "Lora";
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;

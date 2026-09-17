@@ -8,13 +8,13 @@ body {
 
 
 @font-face {
-    font-family: "Jelytta";
-    src: url("../assets/fonts/Jelytta.ttf") format("truetype");
+    font-family: "Lora";
+    src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
 .menu {
-    height: 50px;
-    background-color: rgb(213, 236, 243);
-    font-family: "Jelytta";
+    height: 35px;
+    background-color: rgb(164, 214, 173);
+    font-family: "Lora";
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 
 .menu a {
     margin: 0 15px;
-    color: rgb(55, 154, 201);
+    color: rgb(255,255,255);
     text-decoration: none;
     
 }
@@ -42,8 +42,9 @@ body {
 
 .menu a.active {
     font-weight: bold;
-    font-size: 1.5em;
-    color: rgb(2, 86, 126);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: rgb(255,110,97);
 }
 
 .menu h1 {
