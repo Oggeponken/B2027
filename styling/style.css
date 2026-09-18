@@ -6,14 +6,27 @@ body {
     overflow: hidden;
 }
 
-
 @font-face {
     font-family: "Lora";
     src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
+
+.intro {
+    
+    font-weight: 400;
+    font-size: 22;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: "Lora";
+}
 .menu {
     height: 35px;
-    background-color: rgb(164, 214, 173);
+    background-color:#B8C56B;
     font-family: "Lora";
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
@@ -31,8 +44,9 @@ body {
 
 .menu a {
     margin: 0 15px;
-    color: rgb(255,255,255);
+    color:#0f1100;
     text-decoration: none;
+    position: relative;
     
 }
 
@@ -40,11 +54,38 @@ body {
     cursor:grab;
 }
 
+
+.menu a .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140%;
+    height: 220%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.menu a .circle circle {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: draw-circle 0.6s linear forwards;
+}
+
+@keyframes draw-circle {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
 .menu a.active {
     font-weight: bold;
     text-decoration: underline;
     text-decoration-style: wavy;
-    color: rgb(255,110,97);
+    color:#bba8f1;
 }
 
 .menu h1 {

@@ -12,24 +12,17 @@
 }
 
 @font-face {
-    font-family: "Jelytta";
-    src: url("../assets/fonts/Jelytta.ttf") format("truetype");
+    font-family: "Lora";
+    src: url("../assets/fonts/Lora.ttf") format("truetype");
 }
 
 .accomondations1 h1{
-    font-family: "Jelytta";
+    font-family: "Lora";
     font-size: 60;
     color:white
 }
 
-.accomondations2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 22;
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 125px;
-}
+
 
 .accomondations3 {
     display: flex;
