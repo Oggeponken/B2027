@@ -1,15 +1,7 @@
 
 
 
-.checklist1 {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
-    flex-direction: column;
-    margin-left: 25px;
-    width: 1001px;
-    
-}
+
 @font-face {
     font-family: "Lora";
     src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
