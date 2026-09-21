@@ -25,6 +25,8 @@
 
 
 
+
+
 .agenda {
     display: flex;
     flex-direction: row;
@@ -36,19 +38,72 @@
 }
 .agenda .day-container{
     display: flex;
-
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     background:#e8e5f1;
     border-radius: 15px;
     padding: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    width:500px;
+    width:300px;
     transition: all 0.4s ease;
     
 }
 
+.agenda .day-container .day{
+ 
+   margin-top: 20px;
+}
+
+.agenda summary {
+    font-size: 24px;
+    font-weight:400;
+    cursor: pointer;
+    font-family: "Lora";
+}
+.agenda p{
+    font-family: "Lora";
+    display: none;
+}
+
+.agenda .day-container .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.agenda .day-container{
+    position:relative;
+}
+
+button.arrow{
+    position:absolute;
+    top:50%;
+    font-size: 30px;
+    transform:translateY(-50%);
+    display:none;
+    background-color: #E85768;
+    border: none;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    align-items:center;
+    justify-content:center;
+}
+
+button.arrow.left{
+    left:20px;
+}
+
+button.arrow.right{
+    right:20px;
+}
+
 
 .agenda .day-container.expanded {
+    display: flex;
+    flex-direction: row;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -58,21 +113,27 @@
     z-index: 100;
 }
 
-
-
-
-.agenda .day-container .day{
-   width:500px
-}
-
-
-.agenda p{
+.agenda .day-container.expanded p{
     font-family: "Lora";
+    display: block;
+    font-size: 30px;
 }
-.agenda summary {
-    font-size: 24px;
+
+
+.agenda .day-container.expanded summary {
+    font-size: 36px;
     font-weight:400;
     cursor: pointer;
     font-family: "Lora";
+}
+
+.agenda .day-container.expanded .image img{
+    width: 600px;
+    height: auto;
+}
+
+.agenda .day-container.expanded button.arrow{
+    display: flex;
+   
 }
 
