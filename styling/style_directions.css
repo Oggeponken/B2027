@@ -18,29 +18,25 @@
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 25px;
     
 }
 
-.directions2 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24;
-    font-weight: 500;
 
-}
-.directions2 .maps-buttons{
+.directions1 .maps-buttons{
     display: flex;
     gap: 12px;
     
 }
-.directions2 .maps-buttons button{
+.directions1 .maps-buttons button{
     width: 75px;
     height: 30px;
     background-color:#FC8F30;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 2px 4px gray;
+    margin-top: 10px;
 }
 
 .directions2 iframe{
@@ -60,6 +56,19 @@
     border-radius: 10px;
 
 }
+.directions3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #FFD4CB;
+}
 
+.directions3 summary{
+    font-family: "Lora";
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
 
