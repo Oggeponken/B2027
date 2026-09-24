@@ -1,0 +1,12 @@
+.contacts .contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts {
+    margin-bottom: 24px;
+}
+
+.info{
+    margin-left: 20px;
+}
