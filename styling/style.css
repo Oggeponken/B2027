@@ -16,19 +16,48 @@ body {
     src: url("../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Jakarta";
+    src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+}
+
+.video-controls button{
+    background-color: transparent;
+    border: none;
+}
+.video-controls button:hover{
+    cursor: grab;
+}
+
 .container{
     margin-top: 8px;
     margin-left: 24px;
 }
 
 .intro {
-    
+
+    font-size: 24px;
+    font-family: "Lora";
     font-weight: 400;
-    font-size: 22;
-    width: 1200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 24px;
+   
+ 
 }
+
+.countdown-container {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 5px 10px gray;
+    font-size: 40px;
+    font-family: "Jakarta";
+    font-weight: 600;
+    font-size: 40;
+ 
+}
+
 
 p {
     font-family: "Lora";
@@ -52,6 +81,14 @@ h {
     box-shadow: 0px 5px 10px gray;
     align-items: center;
     display: flex;
+}
+
+.arrow.left {
+    left: -50px;
+}
+
+.arrow.right {
+    right: -50px;
 }
 
 
