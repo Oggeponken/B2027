@@ -46,29 +46,7 @@ menuLinks.forEach(link => {
     });
 });
 
-// image flipper
-const images = [
-    "assets/accomondations1.jpg",
-    "assets/accomondations2.jpg",
-    "assets/accomondations3.jpg",
-    "assets/accomondations4.jpg"
-];
 
-let currentImage = 0;
-
-const image = document.getElementById("gallery-image");
-const leftArrow = document.querySelector(".image-viewer .arrow.left");
-const rightArrow = document.querySelector(".image-viewer .arrow.right");
-
-rightArrow.addEventListener("click", function() {
-    currentImage = (currentImage + 1) % images.length;
-    image.src = images[currentImage];
-});
-
-leftArrow.addEventListener("click", function() {
-    currentImage = (currentImage - 1 + images.length) % images.length;
-    image.src = images[currentImage];
-});
 
 // Countdown timer for the wedding date
 const weddingDate = new Date("2027-06-24T00:00:00");
@@ -77,6 +55,7 @@ function updateCountdown() {
     const now = new Date();
     const difference = weddingDate - now;
     const days = Math.ceil(difference / (1000 * 60 * 60 * 24));
+    
 
     document.getElementById("countdown").textContent = "Om " + days + " dagar är ni välkomna till vårt bröllop!";
 }
