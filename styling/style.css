@@ -2,9 +2,7 @@ body {
     cursor: url("../assets/cursor1.png"), auto;
 }
 
-.start {
-    overflow: hidden;
-}
+
 
 @font-face {
     font-family: "Lora";
@@ -21,6 +19,14 @@ body {
     src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
 }
 
+
+.video-controls{
+    position:absolute;
+    top: 100px;
+    right: 20px;
+    
+}
+
 .video-controls button{
     background-color: transparent;
     border: none;
@@ -29,7 +35,12 @@ body {
     cursor: grab;
 }
 
+#engagementVid{
+    width: 100vw;
+}
+
 .container{
+  
     margin-top: 8px;
     margin-left: 24px;
 }
@@ -45,18 +56,20 @@ body {
 }
 
 .countdown-container {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 0px 5px 10px gray;
-    font-size: 40px;
+    
+    color: FC8F30;
+    
+    font-size: 5vw;
     font-family: "Jakarta";
-    font-weight: 600;
+    font-weight: 800;
     font-size: 40;
- 
+    position: relative;
+    left: 50%;
+    transform: translateX(-25%);
+    margin-top: 2vw;
+    margin-bottom: 5vw;
 }
+
 
 
 p {
@@ -74,13 +87,14 @@ h {
   
 }
 .menu {
-    height: 35px;
+    height: 2.5vw;
     background-color:#B8C56B;
     font-family: "Lora";
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;
     display: flex;
+    width:100vw;
 }
 
 .arrow.left {
@@ -94,7 +108,7 @@ h {
 
 .menu .start {
     margin-right:50px;
-    font-size: 30;
+    font-size: 2vw;
     color: rgb(4, 4, 4);
     margin-right: 100px;
 }
@@ -104,6 +118,7 @@ h {
     color:#0f1100;
     text-decoration: none;
     position: relative;
+    font-size: 1.25vw;
     
 }
 
@@ -148,5 +163,41 @@ h {
 .menu h1 {
     text-align: left;
 }
+
+
+.section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section h {
+    font-weight: 700;
+}
+
+.section p {
+    font-size: 20;
+    font-family: "Jakarta";
+}
+
+#register-button{
+    
+    background-color: #fdb97d;
+    font-family: "Lora";
+    font-size: 1vw;
+    border-color: black;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4vw;
+    width: 8vw;
+    
+
+}
+
+#register-button :hover{
+    cursor:crosshair;
+}
+
 
 
