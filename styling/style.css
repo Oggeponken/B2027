@@ -182,7 +182,7 @@ h {
 #register-button{
     
     background-color: #fdb97d;
-    font-family: "Lora";
+    font-family: "Jakarta";
     font-size: 1vw;
     border-color: black;
     border: none;
@@ -191,6 +191,8 @@ h {
     transform: translateX(-50%);
     height: 4vw;
     width: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     
 
 }

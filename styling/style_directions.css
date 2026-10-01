@@ -56,14 +56,14 @@
     border-radius: 10px;
 
 }
-.directions3{
+#boat-schedule{
     display: flex;
     flex-direction: row;
     gap: 20px;
     background-color: #FFD4CB;
 }
 
-.directions3 summary{
+#boat-schedule summary{
     font-family: "Lora";
     font-size: 20px;
     font-weight: 400;
