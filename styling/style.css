@@ -19,6 +19,12 @@ body {
     src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Playwright";
+    src: url("../assets/fonts/PlaywriteUSModern-VariableFont_wght.ttf") format("truetype");
+}
+
+
 
 .video-controls{
     position:absolute;
@@ -56,11 +62,10 @@ body {
 }
 
 .countdown-container {
-    
-    color: FC8F30;
+    color:black;
     
     font-size: 5vw;
-    font-family: "Jakarta";
+    font-family: "Playwright";
     font-weight: 800;
     font-size: 40;
     position: relative;
@@ -181,24 +186,42 @@ h {
 
 #register-button{
     
-    background-color: #fdb97d;
-    font-family: "Jakarta";
-    font-size: 1vw;
+    background-color: #D9CDF9;
+    font-family: "Playwright";
+    font-size: 1.25vw;
     border-color: black;
     border: none;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     height: 4vw;
-    width: 8vw;
+    width: 24vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    border-radius: 4vw;
     
 
 }
 
-#register-button :hover{
+#register-button:hover{
     cursor:crosshair;
+    background-color: rgb(235, 230, 250);
+}
+
+
+#register-button:checked{
+ 
+    background-color: rgb(157, 126, 250);
+}
+
+
+#sketch1{
+    width: 20vw;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2vw;
 }
 
 
