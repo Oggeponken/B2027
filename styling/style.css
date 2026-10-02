@@ -48,7 +48,7 @@ body {
 .container{
   
     margin-top: 8px;
-    margin-left: 24px;
+
 }
 
 .intro {
@@ -61,19 +61,7 @@ body {
  
 }
 
-.countdown-container {
-    color:black;
-    
-    font-size: 5vw;
-    font-family: "Playwright";
-    font-weight: 800;
-    font-size: 40;
-    position: relative;
-    left: 50%;
-    transform: translateX(-25%);
-    margin-top: 2vw;
-    margin-bottom: 5vw;
-}
+
 
 
 
@@ -95,11 +83,12 @@ h {
     height: 2.5vw;
     background-color: #B6C59C;
     font-family: "Lora";
+    width:100vw;
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;
     display: flex;
-    width:100vw;
+  
 }
 
 .arrow.left {
@@ -182,6 +171,19 @@ h {
 .section p {
     font-size: 20;
     font-family: "Jakarta";
+}
+
+#countdown{
+    color:black;
+    
+    font-size: 5vw;
+    font-family: "Playwright";
+    font-weight: 800;
+    font-size: 40;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
 }
 
 #register-button{
