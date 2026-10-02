@@ -53,10 +53,10 @@ body {
 
 .intro {
 
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: "Lora";
     font-weight: 400;
-    margin-left: 24px;
+    margin-left: 2vw;
    
  
 }
@@ -93,7 +93,7 @@ h {
 }
 .menu {
     height: 2.5vw;
-    background-color:#B8C56B;
+    background-color: #B6C59C;
     font-family: "Lora";
     padding: 20px;
     box-shadow: 0px 5px 10px gray;

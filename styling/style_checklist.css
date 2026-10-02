@@ -6,23 +6,24 @@
     font-family: "Lora";
     src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
-
+@font-face {
+    font-family: "Jakarta";
+    src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+}
 
 
 .checklist {
     
     display: flex;
     flex-direction: column;
-    background-color: #fdca9d;
+   
     width: 600px;
 
     margin-top: 25px;
     padding: 20px;
-    gap: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px gray;
-    font-family: "Lora";
-    font-size: 24;
+    gap: 1.25vw;
+    font-family: "Jakarta";
+    font-size: 1.25vw;
     
     
 }
@@ -39,5 +40,19 @@
 }
 
 .checklist input[type="checkbox"]:checked {
-    background: #D83668
+    background-image: url("../assets/icons/checked.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+
+.section .subsection{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+
+#checklist{
+    width: 25vw;
+    height: auto;
 }
