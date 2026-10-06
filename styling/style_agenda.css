@@ -26,66 +26,64 @@
 
 
 
-
-.agenda {
+#agenda{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    column-gap: 50px;
-    margin: 20px;
-    
- 
+    column-gap: 1vw;
 }
-.agenda .day-container{
+
+.day-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#e8e5f1;
+    background:rgba(244, 245, 240, 1);
     border-radius: 15px;
     padding: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    width:300px;
+    width:20vw;
+    height: 25vw;
     transition: all 0.4s ease;
     
 }
 
-.agenda .day-container .day{
- 
-   margin-top: 20px;
+.day-container .day{
+   text-align: center;
 }
 
-.agenda summary {
-    font-size: 24px;
+des{
+    font-family: "Space Grotesk";
+    color: rgba(133, 116, 121, 1);
+    font-size: 1vw;
+    top: 1vw;
+}
+
+summary {
+    font-size: 1.5vw;
     font-weight:400;
     cursor: pointer;
-    font-family: "Lora";
+    font-family: "Playwright";
+    place-items: center;
 }
-.agenda p{
-    font-family: "Lora";
-    display: none;
-}
-
-.agenda .day-container .image{
+.image-container{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    
 }
 
-.agenda .day-container{
-    position:relative;
+.day-container img{
+    width: 15vw; 
 }
+
+
 
 button.arrow{
     position:absolute;
     top:50%;
-    font-size: 30px;
+   
     transform:translateY(-50%);
     display:none;
-    background-color: #E85768;
+
     border: none;
-    border-radius: 50%;
+   
     width:40px;
     height:40px;
     align-items:center;
@@ -94,14 +92,22 @@ button.arrow{
 
 button.arrow.left{
     left:20px;
+    background-image: url("../assets/icons/ArrowLeft.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 button.arrow.right{
     right:20px;
+    background-image: url("../assets/icons/ArrowRight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
-.agenda .day-container.expanded {
+.day-container.expanded {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -113,26 +119,32 @@ button.arrow.right{
     z-index: 100;
 }
 
-.agenda .day-container.expanded p{
+.day-container p{
+    display: none;
+    
+}
+
+
+.day-container.expanded p{
     font-family: "Lora";
     display: block;
     font-size: 30px;
 }
 
 
-.agenda .day-container.expanded summary {
+.day-container.expanded summary {
     font-size: 36px;
     font-weight:400;
     cursor: pointer;
     font-family: "Lora";
 }
 
-.agenda .day-container.expanded .image img{
+.day-container.expanded .image img{
     width: 600px;
     height: auto;
 }
 
-.agenda .day-container.expanded button.arrow{
+.day-container.expanded button.arrow{
     display: flex;
    
 }

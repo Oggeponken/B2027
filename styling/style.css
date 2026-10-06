@@ -45,11 +45,6 @@ body {
     width: 100vw;
 }
 
-.container{
-  
-    margin-top: 8px;
-
-}
 
 .intro {
 
@@ -69,6 +64,10 @@ p {
     font-family: "Lora";
 }
 
+#p-title{
+    font-weight: 550;
+}
+
 b {
     font-family: "Space Grotesk";
     font-weight: 400;
@@ -78,6 +77,14 @@ h {
     font-family: "Lora";
     font-size: 20;
   
+}
+
+
+h3{
+    font-family: "Playwright";
+    color: white;
+    font-size: 3vw;
+    font-weight: 300;
 }
 .menu {
     height: 2.5vw;

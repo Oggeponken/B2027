@@ -1,4 +1,4 @@
-const containers=document.querySelectorAll(".agenda .day-container");
+const containers=document.querySelectorAll(" .day-container");
 
 containers.forEach(function(container,index){
 container.addEventListener("click",function(){
