@@ -165,12 +165,18 @@ h {
 }
 
 .section h {
-    font-weight: 700;
+    font-family: "Playwright";
+    font-size: 2.5vw;
 }
 
 .section p {
-    font-size: 20;
+    font-size: 1.25vw;
     font-family: "Jakarta";
+}
+
+.section h2{
+    font-family: "Playwright";
+    font-size: 2vw;
 }
 
 #countdown{
@@ -193,11 +199,9 @@ h {
     font-size: 1.25vw;
     border-color: black;
     border: none;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    box-shadow: 0px 4px 4px gray;
     height: 4vw;
-    width: 24vw;
+    width: 28vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
     border-radius: 4vw;
@@ -211,20 +215,45 @@ h {
 }
 
 
-#register-button:checked{
+#agenda-button{
+    background-color: #f3f1f8;
+    font-family: "Playwright";
+    font-size: 1.25vw;
+    border-color: rgba(172, 202, 236, 1);
+    box-shadow: 0px 4px 4px gray;
  
-    background-color: rgb(157, 126, 250);
+    height: 4vw;
+    width: 28vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 4vw;
 }
 
 
+
+
+
+#index-section-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+#index-buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4vw;
+}
+
 #sketch1{
-    width: 20vw;
+    width: 25vw;
     height: auto;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 2vw;
+    margin-top: 6vw;
 }
-
-
-
