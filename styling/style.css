@@ -167,8 +167,8 @@ h3{
 
 
 .section{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .section h {
@@ -184,6 +184,13 @@ h3{
 .section h2{
     font-family: "Playwright";
     font-size: 2vw;
+}
+
+.section li{
+   font-family: "Jakarta";
+   margin-top: 0.25vw; 
+   font-size: 1.25vw;
+   margin-left:1vw;
 }
 
 #countdown{
