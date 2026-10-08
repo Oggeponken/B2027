@@ -75,17 +75,26 @@ summary {
     width: 15vw; 
 }
 
-
+button.close.icon{
+    position:absolute;
+    top:1%;
+    right: 0.75%;
+    width:20px;
+    height:20px;
+    background-image: url("../assets/icons/closeicon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    display: none;
+}
 
 button.arrow{
     position:absolute;
     top:50%;
-   
     transform:translateY(-50%);
     display:none;
-
     border: none;
-   
     width:40px;
     height:40px;
     align-items:center;
@@ -93,7 +102,7 @@ button.arrow{
 }
 
 button.arrow.left{
-    left:20px;
+    left:-20px;
     background-image: url("../assets/icons/ArrowLeft.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -101,7 +110,7 @@ button.arrow.left{
 }
 
 button.arrow.right{
-    right:20px;
+    right:-20px;
     background-image: url("../assets/icons/ArrowRight.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -114,6 +123,18 @@ button.arrow.right{
     
 }
 
+.day-container p #agenda-p{
+    display: none;
+    font-weight: 600;
+}
+
+.day-container li{
+    display: none;
+    list-style-type: disc;
+    
+}
+
+
 
 .day-container.expanded {
     
@@ -124,15 +145,31 @@ button.arrow.right{
     width: 80vw;
     height: 70vh;
     z-index: 100;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  
 }
 
+
+
 .day-container.expanded p{
-   
+    text-align: left;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left:4vw;
+}
+
+.day-container.expanded p#agenda-p{
+     display: block;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.day-container.expanded li{
+    text-align: left;
+    list-style-type: disc;
+    display:list-item;
+    font-size: 25px;
+    margin-left:4vw;
+
 }
 
 
@@ -145,14 +182,22 @@ button.arrow.right{
 
 .day-container.expanded .image-container {
     position: absolute;
-    width: 40vw;
-    height: auto;
-    right:10%;
-    top:500%;
+    margin-left:10vw;
+    top: 40%;
+    transform: translateY(-40%);
+  
+}
+
+.day-container.expanded .image-container img{
+    width: 25vw;
   
 }
 
 .day-container.expanded button.arrow{
+    display: flex;
+   
+}
+.day-container.expanded button.close.icon{
     display: flex;
    
 }
