@@ -271,3 +271,15 @@ h3{
     transform: translateX(-50%);
     margin-top: 6vw;
 }
+
+
+.footer{
+    width: 100vw;
+    height: 5vw;
+    background-color:rgba(172, 202, 236, 1) ;
+}
+
+#index-footer{
+    background-color:rgba(172, 202, 236, 1) ;
+
+}
