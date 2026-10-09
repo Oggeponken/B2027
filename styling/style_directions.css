@@ -1,74 +1,55 @@
-.headerimage {
+@font-face {
+    font-family: "Playwright";
+    src: url("../assets/fonts/PlaywriteUSModern-VariableFont_wght.ttf") format("truetype");
+}
+
+
+.headerimage{
     width: 100%;
-    height: 600px;
+    height: 400px;
 
     background-image: url("../assets/lurö2.jpg");
     background-size: cover;
     background-position: center;
-
-}
-
-
-
-
-
-
-
-.directions2 {
     display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    flex-direction: row;
-   
-    
-}
-
-
-.directions1 .maps-buttons{
-    display: flex;
-    gap: 12px;
-    
-}
-.directions1 .maps-buttons button{
-    width: 75px;
-    height: 30px;
-    background-color:#FC8F30;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0px 2px 4px gray;
-    margin-top: 10px;
-}
-
-.directions2 iframe{
-    margin-top: 10px;
-}
-
-
-.directions2 .text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 10px;
-    width:1000px;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #333;
-    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 
 }
-#boat-schedule{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    background-color: #FFD4CB;
+
+
+.section button{
+    font-family: "Playwright";
+    height: 3.5vw;
+    width: 10vw;
+    border-color: rgb(224, 224, 224);
+    border-radius: 9999999px;
+     box-shadow:
+        0 4px 4px rgba(0, 0, 0, 0.2),
+        inset 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-#boat-schedule summary{
-    font-family: "Lora";
-    font-size: 20px;
-    font-weight: 400;
-    cursor: pointer;
-    margin-top: 10px;
+#göteborg{
+    background-color: rgba(216, 54, 104, 1);
 }
 
+#malmö{
+    background-color: rgba(221, 230, 241, 1);
+}
 
+#stockholm{
+    background-color: (243, 230, 200, 1);
+}
+
+#varberg{
+    background-color: rgba(237, 242, 208, 1);
+}
+
+#kungälv{
+    background-color: rgba(250, 213, 224, 0.2);
+}
+
+.section #map{
+    margin-top:2vw;
+    width: 50vw;
+}
