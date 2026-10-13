@@ -99,23 +99,25 @@ button.arrow{
     transform:translateY(-50%);
     display:none;
     border: none;
-    width:40px;
-    height:40px;
+    width:4vw;
+    height:4vw;
     align-items:center;
     justify-content:center;
 }
 
 button.arrow.left{
-    left:-20px;
+    left:-5vw;
     background-image: url("../assets/icons/ArrowLeft.png");
+    background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 button.arrow.right{
-    right:-20px;
+    right:-5vw;
     background-image: url("../assets/icons/ArrowRight.png");
+    background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -209,3 +211,15 @@ button.arrow.right{
    
 }
 
+.day-container.expanded#dag1{
+    background-color: rgba(243, 241, 248, 1);
+}
+.day-container.expanded#dag2{
+    background-color:rgba(246, 247, 235, 1);
+}
+.day-container.expanded#dag3{
+    background-color:rgba(237, 242, 247, 1);
+}
+.day-container.expanded#dag4{
+    background-color: rgba(251, 246, 248, 1);
+}
