@@ -1,6 +1,6 @@
 #header-agenda{
 
-    background-image: url("../assets/pic4.jpg");
+    background-image: url("../assets/agenda.png");
    
 
 }
@@ -128,6 +128,14 @@ button.arrow.right{
     font-weight: 600;
 }
 
+.day-container #dag4bild{
+    display: none;
+    
+}
+.day-container.expanded #dag4bild{
+    display: block;
+    
+}
 .day-container li{
     display: none;
     list-style-type: disc;

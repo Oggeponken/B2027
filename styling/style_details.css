@@ -1,4 +1,8 @@
- #details-image{
+#header-details{
+    background-image: url("../assets/övrigadetaljer.png");
+}
+
+#details-image{
     width: 40vw;
     height: auto;
     position: relative;
