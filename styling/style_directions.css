@@ -4,6 +4,10 @@
 }
 
 
+@font-face {
+    font-family: "Jakarta";
+    src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+}
 .headerimage{
     width: 100%;
     height: 400px;
@@ -19,36 +23,51 @@
 
 
 .section button{
-    font-family: "Playwright";
-    height: 3.5vw;
-    width: 10vw;
-    border-color: rgb(224, 224, 224);
+    font-family: "Jakarta";
+    height: 2.75vw;
+    width: 12vw;
+    border: 2px solid;
+    font-size: 0.9vw;
     border-radius: 9999999px;
-     box-shadow:
-        0 4px 4px rgba(0, 0, 0, 0.2),
-        inset 0 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: none;
+   
+}
+
+.section button:hover{
+    background-color: green;
+   
 }
 
 #göteborg{
-    background-color: rgba(216, 54, 104, 1);
+    background-color: rgba(250, 213, 224, 0.2);
+    border-color: rgba(216, 54, 104, 1);
 }
 
 #malmö{
     background-color: rgba(221, 230, 241, 1);
+    border-color: rgba(172, 202, 236, 1);
 }
 
 #stockholm{
-    background-color: (243, 230, 200, 1);
+    background-color: rgba(243, 230, 200, 1);
+    border-color: rgba(252, 143, 48, 1);
 }
 
 #varberg{
     background-color: rgba(237, 242, 208, 1);
+    border-color: rgba(184, 197, 107, 1);
 }
 
 #kungälv{
     background-color: rgba(250, 213, 224, 0.2);
+    border-color: rgba(196, 180, 240, 1);
 }
 
+button:focus {
+    background-color: rgba(216, 54, 104, 1) !important; 
+    color: white;
+    border-color: rgba(216, 54, 104, 1) !important; 
+}
 .section #map{
     margin-top:2vw;
     width: 50vw;
