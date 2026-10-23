@@ -28,7 +28,7 @@ body {
 
 .Header {
     width: 100%;
-    height: 500px;
+    height: 22vw;
 
     background-image: url("../assets/lurö4.png");
     background-size: cover;
@@ -40,6 +40,9 @@ body {
     margin-bottom: 2vw;
 }
 
+.Header#header-register{
+    background-image: url("../assets/anmälan.png");
+}
 
 .video-controls{
     position:absolute;
