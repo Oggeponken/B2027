@@ -72,7 +72,10 @@ button:focus {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 5%;
 }
+
+
 
 #directions-image{
     width: 20vw;

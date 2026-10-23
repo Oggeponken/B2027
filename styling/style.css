@@ -2,7 +2,7 @@ body {
     cursor: url("../assets/cursor1.png"), auto;
     margin: 0;
     width: 100%;
-    overflow-x: hidden;
+    
 }
 
 
@@ -109,7 +109,7 @@ h3{
     height: 2.5vw;
     background-color: #B6C59C;
     font-family: "Lora";
-    width: 100vw;
+    width: 98vw;
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;
@@ -186,8 +186,9 @@ h3{
 
 
 .section{
-    margin-left: 17.5%;
-    margin-right: 17.5%
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 75vw;
     
 }
 
@@ -210,7 +211,7 @@ h3{
     margin-bottom: 3vw;
 }
 
-.section h2{
+h2{
     font-family: "Playwright";
     font-size: 2.5vw;
     font-weight: 500;
@@ -294,8 +295,10 @@ h3{
     flex-direction: column;
     text-align: center;
     font-family: "Jakarta";
-    font-size: 2vw;
+    font-size: 1.75vw;
     row-gap: 5px;
+    margin-left:20%;
+    margin-right: 20%;
 }
 
 p2{
@@ -367,4 +370,11 @@ p2{
 #directions-footer{
     background-color:rgba(184, 197, 107, 1);
 
+}
+#accomondations-footer{
+    background-color:rgba(249, 199, 82, 1);
+
+}
+#register-footer{
+    background-color:rgba(252, 143, 48, 1);
 }
