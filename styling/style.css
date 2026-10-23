@@ -84,6 +84,7 @@ p {
 
 #p-title{
     font-weight: 550;
+    margin-bottom: 0 !important;
 }
 
 b {
@@ -185,29 +186,40 @@ h3{
 
 
 .section{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 17.5%;
+    margin-right: 17.5%
+    
 }
 
 .section h {
     font-family: "Playwright";
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
 .section p {
-    font-size: 1.25vw;
+    font-size: 1vw;
     font-family: "Jakarta";
+}
+
+#p-last{
+    margin-bottom: 2vw;
+}
+
+#p-intro{
+    font-size: 1.25vw;
+    margin-bottom: 3vw;
 }
 
 .section h2{
     font-family: "Playwright";
-    font-size: 2vw;
+    font-size: 2.5vw;
+    font-weight: 500;
 }
 
 .section li{
    font-family: "Jakarta";
    margin-top: 0.25vw; 
-   font-size: 1.25vw;
+   font-size: 1vw;
    margin-left:1vw;
 }
 
@@ -229,9 +241,10 @@ h3{
     background-color: #D9CDF9;
     font-family: "Playwright";
     font-size: 1.25vw;
-    border-color: black;
-    border: none;
-    box-shadow: 0px 4px 4px gray;
+    border-color: #a686fd !important;
+    
+    border: 2px solid;
+   
     height: 4vw;
     width: 28vw;
     margin-top: 2vw;
@@ -246,14 +259,21 @@ h3{
     background-color: rgb(235, 230, 250);
 }
 
+#agenda-button:hover{
+    cursor:crosshair;
+    background-color: #D9CDF9;
+}
+
+
 
 #agenda-button{
-    background-color: #f3f1f8;
+    background-color: rgba(172, 202, 236, 0.4);
+    border-color: rgba(172, 202, 236, 1) !important;
     font-family: "Playwright";
     font-size: 1.25vw;
-    border-color: rgba(172, 202, 236, 1);
-    box-shadow: 0px 4px 4px gray;
- 
+  
+
+    border: 2px solid;
     height: 4vw;
     width: 28vw;
     margin-top: 2vw;
@@ -261,6 +281,10 @@ h3{
     border-radius: 4vw;
 }
 
+#index-buttons button:active{
+     background-color: rgba(184, 197, 107, 1);
+    border-color:rgba(184, 197, 107, 1) !important;
+}
 
 
 
@@ -268,16 +292,24 @@ h3{
 #index-section-1{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-family: "Jakarta";
+    font-size: 2vw;
     row-gap: 5px;
+}
+
+p2{
+    margin-bottom: 2vw;
 }
 
 #index-buttons{
     display: flex;
     flex-direction: row;
+    align-items: center;
     column-gap: 16px;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    
+   
     margin-top: 4vw;
 }
 
@@ -329,5 +361,10 @@ h3{
 
 #details-footer{
     background-color:rgba(196, 180, 240, 1);
+
+}
+
+#directions-footer{
+    background-color:rgba(184, 197, 107, 1);
 
 }
