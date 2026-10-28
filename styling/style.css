@@ -115,7 +115,7 @@ header .menu {
 
 
 .menu#phone {
-    display: none !important;
+    
     background-color: #B6C59C;
     font-family: "Lora";
     width: 10vw;
@@ -123,7 +123,7 @@ header .menu {
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     text-align: left;
-    display: flex;
+    display: none;
     flex-direction: column;
     position: absolute;
     row-gap: 1.5vw;
@@ -135,7 +135,7 @@ header .menu {
 
 @media (hover: none) and (pointer: coarse){
     .menu#phone {
-        display: block !important;
+        display: flex ;
     }
 
     .menu#computer{
