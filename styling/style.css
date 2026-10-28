@@ -134,11 +134,11 @@ header .menu {
 }
 
 @media (hover: none) and (pointer: coarse){
-    #phone {
+    .menu#phone {
         display: block;
     }
 
-    #computer{
+    .menu#computer{
         display: none;
     }
 }
