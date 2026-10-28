@@ -130,6 +130,7 @@ header .menu {
     top: 0;
     left: 0;
     z-index: 1000;
+    transition: opacity 0.3s ease;
   
 }
 
