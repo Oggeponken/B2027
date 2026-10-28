@@ -135,7 +135,7 @@ header .menu {
 
 @media (hover: none) and (pointer: coarse){
     .menu#phone {
-        display: block;
+        display: block !important;
     }
 
     .menu#computer{
