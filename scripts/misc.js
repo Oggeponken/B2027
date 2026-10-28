@@ -73,3 +73,12 @@ buttons.forEach(button => {
         button.classList.add("selected");
     });
 });
+
+
+
+const header = document.querySelector(".menu#phone");
+
+function toggleMenu() {
+    console.log(header)
+    header.classList.toggle("collapsed");
+}

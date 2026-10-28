@@ -64,15 +64,10 @@ body {
 }
 
 
-.intro {
 
-    font-size: 1.25vw;
-    font-family: "Lora";
-    font-weight: 400;
-    margin-left: 2vw;
-   
- 
-}
+
+
+
 
 
 
@@ -105,7 +100,7 @@ h3{
     font-size: 3vw;
     font-weight: 300;
 }
-.menu {
+header .menu {
     height: 2.5vw;
     background-color: #B6C59C;
     font-family: "Lora";
@@ -114,7 +109,49 @@ h3{
     box-shadow: 0px 5px 10px gray;
     align-items: center;
     display: flex;
+    column-gap: 1.5vw;
   
+}
+
+
+.menu#phone {
+    display: none !important;
+    background-color: #B6C59C;
+    font-family: "Lora";
+    width: 10vw;
+    height: 100vw;
+    padding: 20px;
+    box-shadow: 0px 5px 10px gray;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    row-gap: 1.5vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  
+}
+
+@media (max-width: 768px) {
+    #phone {
+        display: block;
+    }
+
+    #computer{
+        display: none;
+    }
+}
+
+.menu#phone.collapsed{
+    transform: translateX(-100%);
+}
+
+#phone-header button#button2{
+    position: absolute;
+
+    z-index: 999;
+
 }
 
 .arrow.left {
@@ -127,17 +164,17 @@ h3{
 
 
 .menu .start {
-    margin-right:50px;
+
     font-size: 2vw;
     color: rgb(4, 4, 4);
-    margin-right: 100px;
+  
 }
 
 .menu a {
-    margin: 0 15px;
+  
     color:#0f1100;
     text-decoration: none;
-    position: relative;
+
     font-size: 1.25vw;
     
 }
