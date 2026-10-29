@@ -1,0 +1,229 @@
+#header-agenda{
+
+    background-image: url("../assets/agenda.png");
+   
+
+}
+@font-face {
+    font-family: "Lora";
+    src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+.headerimage h1{
+    font-family: "Lora";
+    font-size: 60;
+    color:white
+
+}   
+
+
+
+
+
+#agenda{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.day-container{
+    
+   position: relative;
+    background:rgba(244, 245, 240, 1);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.15);
+    width:20vw;
+    height: 25vw;
+    transition: all 0.0s linear;
+    
+}
+u1{
+    display: flex;
+    flex-direction: column;
+    row-gap:2vw;
+}
+.day-container .day{
+   text-align: center;
+}
+
+des{
+    font-family: "Space Grotesk";
+    color: rgba(133, 116, 121, 1);
+    font-size: 1vw;
+    top: 1vw;
+}
+
+summary {
+    font-size: 1.5vw;
+    font-weight:400;
+    cursor: pointer;
+    font-family: "Playwright";
+    place-items: center;
+}
+.image-container{
+    position: absolute;
+   
+   bottom: 10%;
+   left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.day-container img{
+    width: 15vw; 
+}
+
+button.close.icon{
+    position:absolute;
+    top:1%;
+    right: 0.75%;
+    width:20px;
+    height:20px;
+    background-image: url("../assets/icons/closeicon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    display: none;
+}
+
+button.arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    display:none;
+    border: none;
+    width:4vw;
+    height:4vw;
+    align-items:center;
+    justify-content:center;
+}
+
+button.arrow.left{
+    left:-5vw;
+    background-image: url("../assets/icons/ArrowLeft.png");
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button.arrow.right{
+    right:-5vw;
+    background-image: url("../assets/icons/ArrowRight.png");
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.day-container p{
+    display: none;
+    
+}
+
+.day-container p #agenda-p{
+    display: none;
+    font-weight: 600;
+}
+
+.day-container #dag4bild{
+    display: none;
+    
+}
+.day-container.expanded #dag4bild{
+    display: block;
+    
+}
+.day-container li{
+    display: none;
+    list-style-type: disc;
+    
+}
+
+
+
+.day-container.expanded {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 80vw;
+    height: 70vh;
+    z-index: 100;
+  
+}
+
+.day-container.expanded .day{
+    margin-top:2vw;
+}
+
+
+.day-container.expanded p{
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    margin-left:4vw;
+}
+
+.day-container.expanded p#agenda-p{
+     display: block;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.day-container.expanded li{
+    text-align: left;
+    list-style-type: disc;
+    display:list-item;
+    font-size: 25px;
+    margin-left:4vw;
+
+}
+
+
+.day-container.expanded summary {
+    font-size: 36px;
+    font-weight:400;
+    cursor: pointer;
+
+}
+
+.day-container.expanded .image-container {
+    position: absolute;
+    margin-left:10vw;
+    top: 40%;
+    transform: translateY(-40%);
+  
+}
+
+.day-container.expanded .image-container img{
+    width: 25vw;
+  
+}
+
+.day-container.expanded button.arrow{
+    display: flex;
+   
+}
+.day-container.expanded button.close.icon{
+    display: flex;
+   
+}
+
+.day-container.expanded#dag1{
+    background-color: rgba(243, 241, 248, 1);
+}
+.day-container.expanded#dag2{
+    background-color:rgba(246, 247, 235, 1);
+}
+.day-container.expanded#dag3{
+    background-color:rgba(237, 242, 247, 1);
+}
+.day-container.expanded#dag4{
+    background-color: rgba(251, 246, 248, 1);
+}

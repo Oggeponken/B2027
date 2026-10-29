@@ -2,7 +2,19 @@
 <head>
     <title>Start Page</title>
 
-    <link rel="stylesheet" href="styling/style.css">
+    <script>
+        const deviceStyles = document.createElement("link");
+
+        deviceStyles.rel = "stylesheet";
+
+        if (matchMedia("(hover: none) and (pointer: coarse)").matches) {
+            deviceStyles.href = "styling/phone/style.css";
+        } else {
+            deviceStyles.href = "styling/phone/style.css";
+        }
+
+        document.head.appendChild(deviceStyles);
+    </script>
     <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
     
 </head>
@@ -42,7 +54,7 @@
 
 
         <div class="engagement">
-            <img id="engagementVid" src="assets/placeholder.png">
+            <img id="engagementVid" src="assets/placeholder2.png">
             
             <div class="video-controls">
                 <button id="pauseBtn">
