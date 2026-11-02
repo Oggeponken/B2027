@@ -144,6 +144,7 @@ button.arrow.right{
 .day-container li{
     display: none;
     list-style-type: disc;
+    margin-top: 1.5vw;
     
 }
 
@@ -194,6 +195,7 @@ button.arrow.right{
     font-size: 5vw;
     font-weight:400;
     cursor: pointer;
+    margin-bottom: 5vw;
 
 }
 
