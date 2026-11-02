@@ -1,8 +1,26 @@
 <head>
-    <title>B2027</title>
+    <title>Agenda</title>
 
-    <link rel="stylesheet" href="styling/style.css">
-    <link rel="stylesheet" href="styling/style_agenda.css">
+  <script>
+        const isPhone = matchMedia("(hover: none) and (pointer: coarse)").matches;
+
+        const stylesheets = isPhone
+            ? [
+                "styling/phone/style.css",
+                "styling/phone/style_agenda.css"
+            ]
+            : [
+                "styling/phone/style.css",
+                "styling/phone/style_agenda.css"
+            ];
+
+        stylesheets.forEach(path => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = path;
+            document.head.appendChild(link);
+        });
+    </script>
     <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
     
 </head>
@@ -111,8 +129,8 @@
                 <div class="day">
                     <des>Hemresa</des>
                     <summary>Söndag 27 Juni</summary>
-                    <p>08:00-11:00 - Frukost</p>
-                    <p>11:00 - Utcheckning & hemresa</p>
+                    <li>08:00-11:00 - Frukost</li>
+                    <li>11:00 - Utcheckning & hemresa</li>
                     <img src="assets/icons/dag4b.png" id="dag4bild">
                 </div>
                 <div class ="image-container">

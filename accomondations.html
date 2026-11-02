@@ -1,12 +1,29 @@
 <head>
-    <title>B2027</title>
+    <title>Boende & Mat</title>
 
-    <link rel="stylesheet" href="styling/style.css">
-    <link rel="stylesheet" href="styling/style_accomondations.css">
+  <script>
+        const isPhone = matchMedia("(hover: none) and (pointer: coarse)").matches;
+
+        const stylesheets = isPhone
+            ? [
+                "styling/phone/style.css",
+                "styling/phone/style_register.css"
+            ]
+            : [
+                "styling/phone/style.css",
+                "styling/phone/style_register.css"
+            ];
+
+        stylesheets.forEach(path => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = path;
+            document.head.appendChild(link);
+        });
+    </script>
     <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
     
 </head>
-
 
 
 <body>
@@ -52,16 +69,10 @@
                 <p id="p-last">I alla boenden förutom sjöboden finns det WIFI.</p>
                 <p id="p-title">Det kommer finnas tofflor, ett badlakan, en handduk & lakan på plats för varje person.</p>
             </div>
-            <div class="image-viewer">
-                <button class="arrow left">←</button>
-
-                <img id="gallery-image" src="assets/lurö2.jpg" height="500px" width="auto" alt="Accommodation Image">
-
-                <button class="arrow right">→</button>
-            </div>
+       
             
             <div class="section">
-                <h>Mat</h>
+                <h2>Mat</h2>
                 
                 <p>Från Lurö Krog kommer vi få frukostbuffé, lunch & middag varje dag. På krogen jobbar Angelica & Håkan med vällagad mat på exeptionella, lokala råvaror. </p>
               
