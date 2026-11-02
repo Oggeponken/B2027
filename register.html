@@ -2,10 +2,30 @@
 
 
 <head>
-    <title>Start Page</title>
+    <title>Anmälan</title>
 
-    <link rel="stylesheet" href="styling/style.css">
+  <script>
+        const isPhone = matchMedia("(hover: none) and (pointer: coarse)").matches;
+
+        const stylesheets = isPhone
+            ? [
+                "styling/phone/style.css",
+                "styling/phone/style_register.css"
+            ]
+            : [
+                "styling/phone/style.css",
+                "styling/phone/style_register.css"
+            ];
+
+        stylesheets.forEach(path => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = path;
+            document.head.appendChild(link);
+        });
+    </script>
     <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
+    
 </head>
 
 
@@ -40,8 +60,7 @@
                 Djur och barn är välkomna men vi uppmanar alla att lägga upp helgen så att det finns utrymme för att ge oss vår bästa present: your inner party animal, och att gå och lägga dig när du i vanliga fall går upp. 
             </p>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfB6PPgg0KaXeMiBzybRxKVhGENXl_a2CiI2zpdkt-9W_vyLQ/viewform?embedded=true"
-                width="1200" 
-                height="1800" 
+                id="form"
                 frameborder="0" 
                 marginheight="0" 
                 marginwidth="0">Läser in …</iframe>

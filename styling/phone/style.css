@@ -98,7 +98,7 @@ h {
 h3{
     font-family: "Playwright";
     color: white;
-    font-size: 3vw;
+    font-size: 8vw;
     font-weight: 300;
 }
 header .menu {
@@ -226,9 +226,9 @@ header .menu {
 
 
 .section{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 75vw;
+    margin-left: 5%;
+    margin-right: 5%;
+  
     
 }
 
@@ -238,9 +238,11 @@ header .menu {
 }
 
 .section p {
-    font-size: 1vw;
+    font-size: 3vw;
     font-family: "Jakarta";
+    font-weight: 250;
 }
+
 
 #p-last{
     margin-bottom: 2vw;
@@ -253,8 +255,8 @@ header .menu {
 
 h2{
     font-family: "Playwright";
-    font-size: 5vw;
-    font-weight: 500;
+    font-size: 4.5vw;
+    font-weight: 400;
 }
 
 .section li{
