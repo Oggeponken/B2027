@@ -1,0 +1,12 @@
+#header-details{
+    background-image: url("../../assets/övrigadetaljer.png");
+}
+
+#details-image{
+    width:100vw;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 6vw;
+}

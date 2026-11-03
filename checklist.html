@@ -1,12 +1,29 @@
-
 <head>
     <title>Checklist</title>
 
-    <link rel="stylesheet" href="styling/style.css">
-    <link rel="stylesheet" href="styling/style_checklist.css">
-    <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
-</head>
+  <script>
+        const isPhone = matchMedia("(hover: none) and (pointer: coarse)").matches;
 
+        const stylesheets = isPhone
+            ? [
+                "styling/phone/style.css",
+                "styling/phone/style_checklist.css"
+            ]
+            : [
+                "styling/phone/style.css",
+                "styling/phone/style_checklist.css"
+            ];
+
+        stylesheets.forEach(path => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = path;
+            document.head.appendChild(link);
+        });
+    </script>
+    <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
+    
+</head>
 
 <body>
     <header>
@@ -80,7 +97,7 @@
           <p>Kolla gärna med någon annan om ni kan dela på stora, tunga saker som steamer, hårtork, plattång, solkräm mm så blir packningen inte lika tung!</p>
      </div>
      <div class="section">
-          <h id="checklist-h1">Det här finns redan på plats:</h>
+          <h1 id="checklist-h1">Det här finns redan på plats:</h1>
           <u1>
                <li>Dushtvål, schampoo & body lotion</li>
                <li>"Spatofflor"</li>
