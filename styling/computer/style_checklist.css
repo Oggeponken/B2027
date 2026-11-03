@@ -4,16 +4,16 @@
 
 @font-face {
     font-family: "Lora";
-    src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("../../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
     font-family: "Jakarta";
-    src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+    src: url("../../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
 }
 
 
 #header-checklist{
-    background-image: url("../assets/packlista.png");
+    background-image: url("../../assets/packlista.png");
 }
 
 .checklist {

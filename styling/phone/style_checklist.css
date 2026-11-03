@@ -58,12 +58,12 @@
 
  
  #checklist-image{
-    width: 40vw;
+    width: 100vw;
     height: auto;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 6vw;
+    margin-top: 6vh;
 }
 
 #checklist-h1{

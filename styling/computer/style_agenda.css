@@ -1,12 +1,12 @@
 #header-agenda{
 
-    background-image: url("../assets/agenda.png");
+    background-image: url("../../assets/agenda.png");
    
 
 }
 @font-face {
     font-family: "Lora";
-    src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("../../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 .headerimage h1{

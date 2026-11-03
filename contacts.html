@@ -1,10 +1,29 @@
-<head>
-    <title>B2027</title>
 
-    <link rel="stylesheet" href="styling/style.css">
-    <link rel="stylesheet" href="styling/style_accomondations.css">
+
+<head>
+    <title>Kontaktlista</title>
+
+  <script>
+        const isPhone = matchMedia("(hover: none) and (pointer: coarse)").matches;
+
+        const stylesheets = isPhone
+            ? [
+                "styling/phone/style.css",
+                "styling/phone/style_contacts.css"
+            ]
+            : [
+                "styling/computer/style.css",
+                "styling/computer/style_register.css"
+            ];
+
+        stylesheets.forEach(path => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = path;
+            document.head.appendChild(link);
+        });
+    </script>
     <link rel="icon" type="image/png" href="assets/icons/tabicon.png">
-    <link rel="stylesheet" href="styling/style_contacts.css">
     
 </head>
 
