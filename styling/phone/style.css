@@ -143,14 +143,39 @@ header .menu {
 }
 
 .top-menu{
-    display: none;
+    display: flex;
     background-color: #B6C59C;
     width: 100%;
-    height: 5vh;
+    height: 10vh;
     flex-direction: row;
     align-items: left;
-    row-gap: 25vw;
+    column-gap: 20vw;
     
+}
+
+#top-icon{
+    width: 40vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.top-menu button{
+    background: none;
+    height: 5vh;
+    border: none;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 10vw;
+}
+
+.top-menu button:active{
+    cursor: grab;
+}
+
+.top-menu #header-image{
+    width: 8vw;
+    height: auto;
 }
 
 @media (hover: none) and (pointer: coarse){
