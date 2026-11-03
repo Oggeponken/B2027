@@ -66,6 +66,7 @@ body {
 }
 
 #engagementVid{
+    margin-bottom: 2vh;
     width: 100%;
     height: auto;
 }
@@ -109,7 +110,7 @@ h3{
 }
 header .menu {
     height: 2.5vw;
-    background-color: #B6C59C;
+    background-color: rgba(222, 230, 176, 1);
     font-family: "Lora";
     
     width: 100%;
@@ -124,27 +125,29 @@ header .menu {
 
 .menu#phone {
     
-    background-color: #B6C59C;
-    font-family: "Lora";
-    width: 10vw;
-    height: 100vw;
+    background-color: rgba(235, 239, 213, 1);
+    width: 100%;
+    height: 25%;
    
     box-shadow: 0px 5px 10px gray;
     text-align: left;
-    display: none;
+    display: flex;
     flex-direction: column;
-    position: absolute;
+    position: sticky;
+    left:0;
     row-gap: 1.5vw;
-    top: 0;
-    left: 0;
+    top: 10vh;
+   
     z-index: 1000;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
+    margin-bottom: -60%;
   
 }
 
 .top-menu{
-    display: none;
-    background-color: #B6C59C;
+    position: sticky;
+    display: flex;
+    background-color: rgba(222, 230, 176, 1);
     width: 100%;
     height: 10vh;
     flex-direction: row;
@@ -193,7 +196,7 @@ header .menu {
 }
 
 .menu#phone.collapsed{
-    transform: translateX(-100%);
+    transform: translateY(-10000%);
 }
 
 #phone-header button#button2{
@@ -224,7 +227,7 @@ header .menu {
     color:#0f1100;
     text-decoration: none;
 
-    font-size: 1.25vw;
+    font-size: 16px;
     
 }
 
@@ -288,7 +291,7 @@ header .menu {
 }
 
 .section p {
-    font-size: 3vw;
+    font-size: 16px;
     font-family: "Jakarta";
     font-weight: 250;
 }
@@ -305,7 +308,7 @@ header .menu {
 
 h2{
     font-family: "Playwright";
-    font-size: 4.5vw;
+    font-size: 18px;
     margin-bottom: 2vh;
     font-weight: 400;
 }
@@ -431,7 +434,7 @@ p2{
     column-gap: 5vw;
     margin-top: 5vw;
     width: 100%;
-    height: 5vw;
+    height: 10vh;
     background-color:rgba(172, 202, 236, 1) ;
 }
 .footer img{
@@ -446,7 +449,7 @@ p2{
     margin-right: 1vw;
 }
 #index-footer{
-    background-color:rgba(172, 202, 236, 1) ;
+    background-color:rgba(222, 230, 176, 1);
 
 }
 #agenda-footer{

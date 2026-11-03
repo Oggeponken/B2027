@@ -57,7 +57,7 @@ function updateCountdown() {
     const days = Math.ceil(difference / (1000 * 60 * 60 * 24));
     
 
-    document.getElementById("countdown").textContent = "Om " + days + " dagar är ni välkomna till vårt bröllop!";
+    document.getElementById("countdown").textContent = "Vi ses om " + days + " dagar!";
 }
 
 updateCountdown();
