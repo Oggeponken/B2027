@@ -7,7 +7,7 @@
 body {
     cursor: url("../../assets/cursor1.png"), auto;
     margin: 0;
-    width: 105%;
+    width: 100%;
     
 }
 
@@ -234,13 +234,17 @@ header .menu {
 .section{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 2vh;
   
     
 }
 
-.section h {
+.section h1 {
     font-family: "Playwright";
-    font-size: 3vw;
+    font-size: 3.5vw;
+    font-weight: 550;
+    margin-top: 2vh !important;
+    margin-bottom: 2vh !important;
 }
 
 .section p {
@@ -262,6 +266,7 @@ header .menu {
 h2{
     font-family: "Playwright";
     font-size: 4.5vw;
+    margin-bottom: 2vh;
     font-weight: 400;
 }
 
