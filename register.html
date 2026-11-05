@@ -3,7 +3,7 @@
 
 <head>
     <title>Anmälan</title>
-
+    
   <script>
         const isPhone = matchMedia("(hover: none) and (pointer: coarse)").matches;
 
@@ -13,8 +13,8 @@
                 "styling/phone/style_register.css"
             ]
             : [
-                "styling/computer/style.css",
-                "styling/computer/style_register.css"
+                "styling/phone/style.css",
+                "styling/phone/style_register.css"
             ];
 
         stylesheets.forEach(path => {
@@ -31,11 +31,10 @@
 
 
 <body>
-    <header>
-        <div>  
-            <nav class="menu">
-                <a class="start" href="index.html"> B2027 Oskar x Clara</h1>
-                <a class="active" href="register.html">Anmälan</a>
+    <header id="computer-header">
+            <nav class="menu" id="computer">
+                <a class="start" href="index.html"> B2027 Oskar x Clara</a>
+                <a href="register.html">Anmälan</a>
                 <a href="accomondations.html">Boende & Mat</a>
                 <a href="agenda.html">Agenda</a>
                 <a href="directions.html">Vägbeskrivning</a>
@@ -43,8 +42,38 @@
                 <a href="details.html">Övriga Detaljer </a>
                 <a href="contacts.html">Kontaktlista</a>
             </nav>   
-        </div>  
     </header>
+    <header id="phone-top-menu">
+            <nav class="top-menu">
+                <button id="button" onclick="toggleMenu()"><img src="assets/icons/hamburger.png" id="header-image"></button>   
+                <img src="assets/icons/footer-icon.png" id="top-icon">
+            
+            </nav>
+    </header>
+    <header id="phone-header">
+            
+            <nav class="menu collapsed" id="phone">
+             
+                <a href="register.html">Anmälan</a>
+                <a href="accomondations.html">Boende & Mat</a>
+                <a href="agenda.html">Agenda</a>
+                <a href="directions.html">Vägbeskrivning</a>
+                <a href="checklist.html">Packlista</a>
+                <a href="details.html">Övriga Detaljer </a>
+                <a href="contacts.html">Kontaktlista</a>
+             
+            </nav>
+            
+    </header>
+
+
+
+
+
+
+
+
+
         <div class="Header" id="header-register">
         <h3>Anmälan</h3>
         </div>
@@ -74,5 +103,6 @@
 
     
    <script src="scripts/misc.js"></script>
+   <script src="scripts/menu.js"></script>
 
 </body>
