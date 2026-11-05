@@ -153,11 +153,11 @@ button.arrow.right{
 .day-container.expanded {
     
     position: fixed;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 80vw;
-    height: 90vh;
+    height: 80vh;
     z-index: 100;
   
 }
