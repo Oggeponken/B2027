@@ -77,8 +77,23 @@ buttons.forEach(button => {
 
 
 const header = document.querySelector(".menu#phone");
+const buttonImage = document.querySelector("#header-image");
 
 function toggleMenu() {
-    console.log(header)
     header.classList.toggle("collapsed");
+
+    if (header.classList.contains("collapsed")) {
+        buttonImage.src = "assets/icons/hamburger.png";
+    } else {
+        buttonImage.src = "assets/icons/hamburger2.png";
+    }
 }
+
+document.addEventListener("click", function(event) {
+    const topMenu = document.querySelector("#phone-top-menu");
+
+    if (!topMenu.contains(event.target) && !header.contains(event.target)) {
+        header.classList.add("collapsed");
+        buttonImage.src = "assets/icons/hamburger.png";
+    }
+});
