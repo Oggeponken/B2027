@@ -10,18 +10,16 @@ window.addEventListener("wheel", function(event) {
 
 const video = document.getElementById("engagementVid");
 const pauseBtn = document.getElementById("pauseBtn");
-const muteBtn = document.getElementById("muteBtn");
+const muteBtn = document.getElementById("playBtn");
 
 pauseBtn.addEventListener("click", function() {
-    if (video.paused) {
-        video.play();
-    } else {
+ 
         video.pause();
-    }
+ 
 });
 
 muteBtn.addEventListener("click", function() {
-    video.muted = !video.muted;
+    video.play();
 });
 document.addEventListener("keydown", function(event) {
     if (event.code === "Space") {
