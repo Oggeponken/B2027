@@ -313,9 +313,9 @@ header .menu {
 
 h2{
     font-family: "Playwright";
-    font-size: 3.75vw;
+    font-size: 4vw;
     margin-bottom: 2vh;
-    font-weight: 400;
+    font-weight: 450;
 }
 
 .section li{
@@ -335,7 +335,7 @@ h2{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-bottom: 2vh;
 }
 
@@ -399,7 +399,7 @@ h2{
     flex-direction: column;
     text-align: center;
     font-family: "Jakarta";
-    font-size: 3.5vw;
+    font-size: 4vw;
     row-gap: 1vh;
     margin-top: 2vh;
     margin-left:5%;
@@ -417,6 +417,7 @@ p2{
     align-items: center;
     column-gap: 16px;
     position: relative;
+
     
    
     margin-top: 4vw;
