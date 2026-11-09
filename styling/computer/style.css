@@ -49,6 +49,7 @@ body {
     top: 100px;
     right: 20px;
     
+    
 }
 
 .video-controls button{
@@ -58,9 +59,16 @@ body {
 .video-controls button:hover{
     cursor: grab;
 }
-
+.engagement {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 #engagementVid{
-    width: 100%;
+    height: 100%;
+    
 }
 
 
