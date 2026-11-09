@@ -60,6 +60,12 @@ body {
 .video-controls button{
     background-color: transparent;
     border: none;
+    margin-left: 1vw;
+}
+.video-controls button img{
+    height: 2vh;
+    width: auto;
+    
 }
 .video-controls button:hover{
     cursor: grab;
@@ -307,7 +313,7 @@ header .menu {
 
 h2{
     font-family: "Playwright";
-    font-size: 3.5vw;
+    font-size: 3.75vw;
     margin-bottom: 2vh;
     font-weight: 400;
 }
@@ -329,8 +335,8 @@ h2{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 2vw;
-    margin-bottom: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
 }
 
 #register-button{
@@ -343,8 +349,8 @@ h2{
     font-weight: 200;
     border: 2px solid;
    
-      border: 6px solid;
-    height: 20vw;
+      border: 8px solid;
+    height: 25vw;
     width: 75vw;
     margin-bottom: 2vw;
     border-radius: 99999vw;
@@ -372,8 +378,8 @@ h2{
     font-weight: 200;
   
 
-    border: 6px solid;
-    height: 20vw;
+    border: 8px solid;
+    height: 25vw;
     width: 75vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -393,8 +399,9 @@ h2{
     flex-direction: column;
     text-align: center;
     font-family: "Jakarta";
-    font-size: 3vw;
-    row-gap: 5px;
+    font-size: 3.5vw;
+    row-gap: 1vh;
+    margin-top: 2vh;
     margin-left:5%;
     margin-right: 5%;
     font-weight: 250;
