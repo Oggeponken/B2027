@@ -9,6 +9,11 @@
     src: url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Lora2";
+    src: url("../assets/fonts/Lora-Italic-VariableFont_wght_2.ttf") format("truetype");
+}
+
 .headerimage h1{
     font-family: "Lora";
     font-size: 60;
@@ -62,7 +67,7 @@ summary {
     font-size: 3.5vw;
     font-weight:400;
     cursor: pointer;
-    font-family: "Playwright";
+    font-family: "Lora2";
     place-items: center;
 }
 .image-container{

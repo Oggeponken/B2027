@@ -26,6 +26,11 @@ body {
     src: url("../../assets/fonts/PlaywriteUSModern-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Playwright2";
+    src: url("../../assets/fonts/PlaywriteUSModern-VariableFont_wght_2.ttf") format("truetype");
+}
+
 .Header {
     width: 100%;
     height: 22vw;
@@ -305,7 +310,7 @@ h2{
 #register-button{
     
     background-color: #D9CDF9;
-    font-family: "Playwright";
+    font-family: "Playwright2";
     font-size: 1.25vw;
     border-color: #a686fd !important;
     
@@ -335,7 +340,7 @@ h2{
 #agenda-button{
     background-color: rgba(172, 202, 236, 0.4);
     border-color: rgba(172, 202, 236, 1) !important;
-    font-family: "Playwright";
+    font-family: "Playwright2";
     font-size: 1.25vw;
   
 
