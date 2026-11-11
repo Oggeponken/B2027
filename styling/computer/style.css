@@ -26,10 +26,6 @@ body {
     src: url("../../assets/fonts/PlaywriteUSModern-VariableFont_wght.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Playwright2";
-    src: url("../../assets/fonts/PlaywriteUSModern-VariableFont_wght_2.ttf") format("truetype");
-}
 
 .Header {
     width: 100%;
@@ -111,7 +107,7 @@ b {
 
 h1 {
     font-family: "Lora";
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 450;
   
 }
@@ -120,14 +116,14 @@ h1 {
 h3{
     font-family: "Playwright";
     color: white;
-    font-size: 3vw;
-    font-weight: 300;
+    font-size: 6vw;
+    font-weight: 400;
 }
 header .menu {
     height: 2.5vw;
     background-color: #B6C59C;
     font-family: "Lora";
-    width: 100%;
+    width: 98%;
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;
@@ -283,7 +279,7 @@ header .menu {
 
 h2{
     font-family: "Playwright";
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-weight: 500;
 }
 
@@ -300,19 +296,21 @@ h2{
     font-size: 5vw;
     font-family: "Playwright";
     font-weight: 800;
-    font-size: 40;
+    font-size: 4vw;
     display: flex;
     justify-content: center;
-    margin-top: 2vw;
-    margin-bottom: 5vw;
+    margin-top: 6vw;
+    margin-bottom: 4vw;
 }
 
 #register-button{
-    
-    background-color: #D9CDF9;
-    font-family: "Playwright2";
-    font-size: 1.25vw;
-    border-color: #a686fd !important;
+ 
+   
+    background-color: rgba(245, 94, 37, 0.2);
+    font-family: "Playwright";
+     font-size: 2vw !important;
+    border-color: rgba(245, 94, 37, 1)!important;
+    font-size: 3vw;
     
     border: 2px solid;
    
@@ -338,10 +336,10 @@ h2{
 
 
 #agenda-button{
-    background-color: rgba(172, 202, 236, 0.4);
-    border-color: rgba(172, 202, 236, 1) !important;
-    font-family: "Playwright2";
-    font-size: 1.25vw;
+    background-color: rgba(179, 204, 226, 0.46);
+    border-color:rgba(179, 204, 226, 1)!important;
+    font-family: "Playwright";
+    font-size: 2vw;
   
 
     border: 2px solid;
@@ -390,7 +388,7 @@ p2{
     width: 25vw;
     height: auto;
     position: relative;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     margin-top: 6vw;
 }
@@ -411,7 +409,7 @@ p2{
     margin-top: 1vw;
     position: absolute;
     left:5%;
-    height: 2vw;
+    height: 6vh;
 }
 
 .footer p{

@@ -9,12 +9,6 @@
     src: url("../../assets/fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Lora2";
-    src: url("../../assets/fonts/PlaywriteUSModern-VariableFont_wght_2.ttf") format("truetype");
-}
-
-
 .headerimage h1{
     font-family: "Lora";
     font-size: 60;
@@ -66,7 +60,7 @@ summary {
     font-size: 1.5vw;
     font-weight:400;
     cursor: pointer;
-    font-family: "Lora2";
+    font-family: "Playwright";
     place-items: center;
 }
 .image-container{
@@ -193,7 +187,7 @@ button.arrow.right{
 
 
 .day-container.expanded summary {
-    font-size: 36px;
+    font-size: 3vw;
     font-weight:400;
     cursor: pointer;
 
@@ -222,7 +216,7 @@ button.arrow.right{
 }
 
 .day-container.expanded#dag1{
-    background-color: rgba(243, 241, 248, 1);
+    background-color:rgba(251, 247, 238, 1);
 }
 .day-container.expanded#dag2{
     background-color:rgba(246, 247, 235, 1);
