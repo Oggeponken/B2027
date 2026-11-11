@@ -159,7 +159,7 @@ header .menu {
     width: 100%;
     height: 10vh;
     flex-direction: row;
-  
+    box-shadow: 0px 5px 10px gray;
     column-gap: 20vw;
     
 }
@@ -315,7 +315,7 @@ header .menu {
 
 h2{
     font-family: "Playwright";
-    font-size: 6vw;
+    font-size: 7vw;
     margin-bottom: 2vh;
     font-weight: 450;
 }
@@ -330,7 +330,7 @@ h2{
 #countdown{
     color:black;
     
-    font-size: 5vw;
+    font-size: 7vw;
     font-family: "Playwright";
     font-weight: 500;
   
@@ -460,6 +460,7 @@ p2{
 .footer p{
     margin-top: 2vw;
     margin-right: 1vw;
+    background-color: rgba(250, 245, 248, 1) !important;
 }
 #index-footer{
     background-color:rgba(222, 230, 176, 1);
