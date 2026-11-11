@@ -122,12 +122,13 @@ header .menu {
     height: 2.5vw;
     background-color: #B6C59C;
     font-family: "Lora";
-    width: 98vw;
+    width: 100%;
     padding: 20px;
     box-shadow: 0px 5px 10px gray;
     align-items: center;
     display: flex;
     column-gap: 1.5vw;
+   
   
 }
 
