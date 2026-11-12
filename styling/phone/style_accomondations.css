@@ -37,7 +37,15 @@ body{
 }
 
 
+#boende-section {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
 
+#mat-section {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
 
 
 
