@@ -43,7 +43,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2vw;
+    margin-bottom: 4vh;
 }
 
 .Header#header-register{
@@ -103,7 +103,7 @@ h {
 
 
 h3{
-    margin-top: 2vh;
+ 
     font-family: "Playwright";
     color: white;
     font-size: 8vw;
