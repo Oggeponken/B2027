@@ -283,6 +283,14 @@ h2{
     font-weight: 500;
 }
 
+h4{
+    font-family: "Playwright";
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+}
+
 .section li{
    font-family: "Jakarta";
    margin-top: 0.25vw; 

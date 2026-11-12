@@ -321,6 +321,12 @@ h2{
     font-weight: 450;
 }
 
+h4{
+    font-family: "Playwright";
+    font-size: 6vw;
+    font-weight: 500;
+}
+
 #intro-h2{
     font-size: 6vw;
 }
