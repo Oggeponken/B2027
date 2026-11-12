@@ -76,12 +76,3 @@ buttons.forEach(button => {
 
 
 
-const section1 = document.querySelector("#boende-section");
-const section2 = document.querySelector("#mat-section");
-
-window.addEventListener("scroll", () => {
-    const progress = Math.min(window.scrollY / window.innerHeight, 1);
-
-    section1.style.opacity = 1 - progress;
-    section2.style.opacity = progress;
-});
