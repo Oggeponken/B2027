@@ -468,13 +468,14 @@ p2{
     margin-top: 1vw;
     position: absolute;
     left:5%;
-    height: 5vh;
+    height:15;
+    width: auto;
 }
 
 .footer p{
     margin-top: 2vw;
     margin-right: 1vw;
-    font-size: 4vw !important;
+    font-size: 7vw !important;
 }
 
 
