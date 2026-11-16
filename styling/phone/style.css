@@ -168,15 +168,15 @@ header .menu {
 }
 
 #top-icon{
-    width: 95%;
+    width: 40vw;
     height: auto;
-    margin-top: 2.5vh;
+    margin-top: 2vh;
     margin-bottom: 3vh;
 }
 
 .top-menu button{
     background: none;
-    width:10%;
+    width:5vw;
     border: none;
     margin-top: 2.5vh;
     margin-bottom: 3vh;
