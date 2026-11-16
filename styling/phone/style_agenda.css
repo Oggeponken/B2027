@@ -165,6 +165,7 @@ button.arrow.right{
 
 .day-container.expanded .day{
     margin-top:2vw;
+    height: 75%;
    
 }
 
@@ -208,6 +209,7 @@ button.arrow.right{
 .day-container.expanded .image-container {
    
     margin-left:1vw;
+    height: 20%;
     
   
 }
