@@ -171,20 +171,23 @@ header .menu {
 }
 
 .top-menu #top-button{
-    margin-top: 10cqh;
+    margin-top: 1%;
     background: none;
-    height: 95%;
+    height: 100%;
+    width: auto;
     border: none;
+    object-fit: contain;
     
 
 }
 
 .top-menu #button{
-     margin-top: 20cqh;
+     margin-top: 1%;
     background: none;
-    height: 70%;
+    height: 100%;
+    width: auto;
     border: none;
- 
+    object-fit: contain;
     margin-left: 10vw;
 }
 
@@ -458,32 +461,34 @@ p2{
 
 
 .footer{
-
-                                                                        
     display: flex;
     background-color: rgba(250, 245, 248, 1) !important;
     width: 100%;
-    height: 15vh;
+    height: 17%;
     flex-direction: row;
-  
-    column-gap: 20vw;
+    box-shadow: 0px 5px 10px gray;
+    gap: 10cqh;
+    padding-left: 3cqh;
+ 
 
 
 
 }
 .footer img{
-    margin-top: 5vh;
-    position: absolute;
-    left:5%;
+    margin-top: 10%;
+    width:45%;
+    height: 45%;
   
-    height:7.5%;
-    width: auto;
+   
 }
 
 .footer #container{
-    position: absolute;
-    right: 5%;
-    margin-top: 5vh;
+    margin-top: 1%;
+
+    height: 100%;
+    width: auto;
+   
+
     
 }
 
