@@ -209,7 +209,7 @@ header .menu {
 }
 
 .menu a:hover{
-    cursor:grab;
+    cursor: url("../../assets/cursor2.png"), auto;
 }
 
 
@@ -238,7 +238,9 @@ header .menu {
     }
 }
 
-
+#top-icon{
+    margin-right: 5vw;
+}
 .menu a.active {
     font-weight: bold;
     text-decoration: underline;
@@ -330,6 +332,13 @@ h4{
     
 
 }
+
+button:hover{
+    cursor: url("../../assets/cursor2.png"), auto;
+   
+}
+
+
 
 #register-button:hover{
     cursor: url("../../assets/cursor2.png"), auto;

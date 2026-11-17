@@ -81,7 +81,7 @@ button.close.icon{
     right: 0.75%;
     width:20px;
     height:20px;
-    background-image: url("../assets/icons/closeicon.png");
+    background-image: url("../../assets/icons/closeicon.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ button.arrow{
 
 button.arrow.left{
     left:-5vw;
-    background-image: url("../assets/icons/ArrowLeft.png");
+    background-image: url("../../assets/icons/ArrowLeft.png");
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ button.arrow.left{
 
 button.arrow.right{
     right:-5vw;
-    background-image: url("../assets/icons/ArrowRight.png");
+    background-image: url("../../assets/icons/ArrowRight.png");
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ button.arrow.right{
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 80vw;
-    height: 70vh;
+    height: 90%;
     z-index: 100;
   
 }
