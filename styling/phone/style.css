@@ -170,14 +170,16 @@ header .menu {
     
 }
 
-#top-icon{
-    margin-top: 25cqh;
+.top-menu #top-button{
+    margin-top: 20cqh;
+    background: none;
     height: 70%;
+    border: none;
     
 
 }
 
-.top-menu button{
+.top-menu #button{
      margin-top: 20cqh;
     background: none;
     height: 70%;
