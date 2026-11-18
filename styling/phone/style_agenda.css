@@ -176,10 +176,17 @@ button.arrow.right{
     font-size: 1vw;
     margin-left:4vw;
 }
-
+.day-container.expanded p#p-red{
+     display: block;
+    font-size: 1.5vh;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left: 20%;
+    color: rgba(142, 2, 63, 1);
+}
 .day-container.expanded p#agenda-p{
      display: block;
-    font-size: 3vw;
+    font-size: 1.5vh;
     font-weight: 475;
     margin-top: 1vh;
      margin-left:20%;
@@ -190,7 +197,7 @@ button.arrow.right{
     text-align: left;
     list-style-type: disc;
     display:list-item;
-    font-size: 3vw;
+    font-size: 1.5vh;
     margin-left:20%;
     margin-right: 20%;
 

@@ -136,6 +136,9 @@ button.arrow.right{
 }
 .day-container.expanded #dag4bild{
     display: block;
+    margin-left: 7.5%;
+    margin-top: 15%;
+    width: 30%;
     
 }
 .day-container li{
@@ -152,42 +155,64 @@ button.arrow.right{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 80vw;
+    width: 85%;
     height: 90%;
     z-index: 100;
   
 }
 
 .day-container.expanded .day{
-    margin-top:2vw;
+    margin-top:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
-
-
+.day-container.expanded .day des{
+    font-size: 1.25vw;
+}
+.day-container.expanded text{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+     box-sizing: border-box;
+    padding: 30px 0;
+    justify-content: space-evenly;
+}
 .day-container.expanded p{
     text-align: left;
     display: block;
     font-size: 20px;
-    margin-left:4vw;
+    margin-left:5%;
 }
 
 .day-container.expanded p#agenda-p{
      display: block;
-    font-size: 25px;
+    font-size: 1.1vw;
     font-weight: 600;
+    margin-bottom: -2%;
+    
+}
+
+.day-container.expanded p#p-red{
+     display: block;
+    font-size: 1.25vw;
+    font-weight: 600;
+    margin-top: 5%;
+    color: rgba(142, 2, 63, 1);
 }
 
 .day-container.expanded li{
     text-align: left;
     list-style-type: disc;
     display:list-item;
-    font-size: 25px;
+    font-size: 1vw;
     margin-left:4vw;
 
 }
 
 
 .day-container.expanded summary {
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight:400;
     cursor: pointer;
 
@@ -195,14 +220,16 @@ button.arrow.right{
 
 .day-container.expanded .image-container {
     position: absolute;
-    margin-left:10vw;
-    top: 40%;
-    transform: translateY(-40%);
+    margin-top: 10%;
+    margin-left:10%;
+    
+    top:35%;
+    transform: translateY(-50%);
   
 }
 
 .day-container.expanded .image-container img{
-    width: 25vw;
+    width: 120%;
   
 }
 
