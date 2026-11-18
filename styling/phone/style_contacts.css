@@ -35,12 +35,12 @@
 
 .contacts p{
     font-family: "Space Grotesk";
-    font-size: 1.25vw;
+    font-size:2vw;
 }
 
 .contacts h5{
     font-family: "Playwright";
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 500;
     margin-bottom: 0.75vh;
     margin-top: 1vh;
@@ -57,7 +57,7 @@
 
 .contact img{
 
-    width: 33%;
+    width: 50%;
     height: auto;
     border-radius: 5%;
 }
