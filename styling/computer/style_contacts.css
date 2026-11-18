@@ -1,26 +1,64 @@
 #header-contacts{
     background-image: url("../../assets/kontaktlista.png");
 }
- 
 
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("../../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Playwright";
+    src: url("../../assets/fonts/PlaywriteUSModern-VariableFont_wght.ttf") format("truetype");
+}
+ 
+.contacts-intro{
+    position: relative;
+    margin-bottom: 7.5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+
+.contacts-intro p{
+   font-family: "Space Grotesk";
+   font-size: 1.25vw;
+
+
+}
+.contacts{
+      margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom:6vh;
+}
+
+.contacts p{
+    font-family: "Space Grotesk";
+    font-size: 1.25vw;
+}
+
+.contacts h5{
+    font-family: "Playwright";
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: -2vh;
+    margin-top: 0.1vh;
+
+}
 
 .contacts .contact{
     display: flex;
     flex-direction: row;
-    column-gap: 3vh;
+    column-gap: 1vw;
+    
 }
 
 
 .contact img{
 
-    width: 12%;
+    width: 15%;
     height: auto;
-    border-radius: 5%;
-}
-
-
-
-#p-contacts{
-    left:50%
+    border-radius: 4%;
 }
 
