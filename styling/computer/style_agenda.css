@@ -155,8 +155,8 @@ button.arrow.right{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 85%;
-    height: 90%;
+    width: 85vw;
+    height: 90vh;
     z-index: 100;
   
 }
