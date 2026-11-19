@@ -164,8 +164,17 @@ button.arrow.right{
 }
 
 .day-container.expanded .day{
-    margin-top:2vw;
-    height: 75%;
+    
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right:20%;
+   
+}
+
+.day-container.expanded .day text{
+    
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -173,33 +182,35 @@ button.arrow.right{
 .day-container.expanded p{
     text-align: left;
     display: block;
-    font-size: 1vw;
-    margin-left:4vw;
+    font-size: 1.2vh;
+  
 }
 .day-container.expanded p#p-red{
      display: block;
+    
     font-size: 1.5vh;
     font-weight: 600;
     margin-top: 5%;
-    margin-left: 20%;
+
     color: rgba(142, 2, 63, 1);
 }
 .day-container.expanded p#agenda-p{
      display: block;
-    font-size: 1.5vh;
+    
+    font-size: 1.2vh;
     font-weight: 475;
     margin-top: 1vh;
-     margin-left:20%;
-    margin-right: 20%;
+   
+  
 }
 
 .day-container.expanded li{
     text-align: left;
     list-style-type: disc;
     display:list-item;
+    
     font-size: 1.5vh;
-    margin-left:20%;
-    margin-right: 20%;
+   
 
 }
 
@@ -214,17 +225,14 @@ button.arrow.right{
 }
 
 .day-container.expanded .image-container {
+    
    
-    margin-left:1vw;
-    height: 20%;
+    height: 15vh;
+ 
     
   
 }
 
-.day-container.expanded .image-container img{
-    width: 40vw;
-  
-}
 
 .day-container.expanded button.arrow{
     display: flex;
