@@ -194,8 +194,8 @@ header .menu {
     width: auto;
     border: none;
     object-fit: contain;
-    margin-right: 40%;
-    margin-left: 10%;
+   
+    margin-left: 10vw;
     
 
 }
@@ -203,6 +203,7 @@ header .menu {
 .top-menu #top-icon{
     height: 75%;
     width: auto;
+     margin-left: 40vw;
 }
 
 .top-menu #button{
@@ -270,7 +271,7 @@ header .menu {
     color:#0f1100;
     text-decoration: none;
 
-    font-size: 5vh;
+    font-size: 2vh;
     
 }
 
